@@ -1,0 +1,11 @@
+body {
+    background-image: url("/images/newbc.jpg");
+    background-size: no-repeat center center cover;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+  }
+
+  nav {
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+}
