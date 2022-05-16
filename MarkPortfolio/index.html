@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- meta -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Mark's Portfolio</title>
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- Libraries CSS Files -->
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/hover/hover.min.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.svg">
+
+</head>
+
+<body>
+
+  <!-- start section navbar -->
+  <nav id="main-nav" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a href="index.html"><img src="images/header.png" alt="logo" height="50" width="100"></a> 
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item active">
+            <a href="index.html#portfolio" class="smoothScroll">My Work</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#about" class="smoothScroll">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#contact" class="smoothScroll">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End section navbar -->
+
+
+  <!-- start section header -->
+  <div id="header" class="home">
+
+    <div class="container">
+      <div class="header-content">
+        <h1>I am <span class="typed"></span></h1>
+        <p>Software Developer</p>
+
+        <ul class="list-unstyled list-social">
+          <li><a href="https://www.linkedin.com/in/markstafki/" target="_blank"><i class="ion-social-linkedin"></i></a></li>
+          <li><a href="https://github.com/marstafk0" target="_blank"><i class="ion-social-github"></i></a></li> 
+          <li><a href="https://www.youtube.com/channel/UCkQ_4A4O-9ePjEQ-AKT7gFQ" target="_blank"><i class="ion-social-youtube"></i></a></li>
+          <li><a href="https://twitter.com/MarkStafki" target="_blank"><i class="ion-social-twitter"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- End section header -->
+
+  <!-- start section portfolio -->
+  <div id="portfolio" class="text-center paddsection">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>My Work</h2>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="portfolio-list">
+
+            <ul class="nav list-unstyled" id="portfolio-flters">
+              <li class="filter filter-active" data-filter=".all">all</li>
+              <li class="filter" data-filter=".webapp">Web Apps</li>
+              <li class="filter" data-filter=".androidapp">Android Apps</li>
+              <li class="filter" data-filter=".database">Databases</li>
+              <li class="filter" data-filter=".webdesign">Web Design</li>
+              <li class="filter" data-filter=".game">Games</li>
+            </ul>
+
+          </div>
+
+          <div class="portfolio-container">
+
+            <!-- Superhero Sightings
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits webdesign">
+              <a href="#headerPopup" id="headerVideoLink" target="_blank">
+                <img src="images/portfolio/superhero.jpg" alt="img">
+              </a>
+            </div>
+
+            <div id="headerPopup" class="mfp-hide embed-responsive embed-responsive-21by9">
+              <iframe class="embed-responsive-item" width="854" height="480" src="images/portfolio/superhero.jpg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div> -->
+
+            <!-- Vending Machine -->
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all webapp webdesign">
+              <a href="#headerPopup" id="headerVideoLink" target="_blank">
+                <img src="images/portfolio/vending.jpg" alt="img">
+              </a>
+            </div>
+
+            <div id="headerPopup" class="mfp-hide embed-responsive embed-responsive-21by9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/9w9-2n3ebME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <!-- Flooring Mastery -->
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all ">
+              <a class="popup-img" href="images/portfolio/flooring.jpg">
+                <img src="images/portfolio/flooring.jpg" alt="img"><a href="https://github.com/marstafk0/Personal-Projects/tree/main/Software%20Guild%20Programs/FlooringMastery" target="_blank">Flooring Mastery</a>
+              </a>
+            </div>
+
+            <!-- Guess the Number -->
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all game database">
+              <a class="popup-img" href="images/portfolio/guess.jpg">
+                <img src="images/portfolio/guess.jpg" alt="img"><a href="https://github.com/marstafk0/Personal-Projects/tree/main/Software%20Guild%20Programs/GuessTheNumber" target="_blank">Guess the Number</a>
+              </a>
+            </div>
+
+            <!-- ToDo App -->
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all database webapp">
+              <a class="popup-img" href="images/portfolio/todo.jpg">
+                <img src="images/portfolio/todo.jpg" alt="img"><a href="https://github.com/marstafk0/Personal-Projects/tree/main/Software%20Guild%20Programs/ToDoApplication" target="_blank">To Do Application</a>
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all webdesign">
+              <a class="popup-img" href="images/portfolio/three.jpg">
+                <img src="images/portfolio/three.jpg" alt="img"><a href="threejs.html">3D modeled Site</a>
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all webdesign">
+              <a class="popup-img" href="images/portfolio/three.jpg">
+                <img src="images/portfolio/three.jpg" alt="img"><a href="threejs.html">3D modeled Site</a>
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- End section portfolio -->
+
+  <!-- start section about us -->
+  <div id="about" class="paddsection">
+    <div class="container">
+      <div class="row justify-content-between">
+
+        <div class="col-lg-4 ">
+          <div class="div-img-bg">
+            <div class="about-img">
+              <img src="images/surfme.jpg" class="img-responsive" alt="me">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="about-descr">
+
+            <p class="p-heading">I'm a software developer with a passion for Android developement. I specialize in back-end engineering and enjoy front-end design. </p>
+            <p class="separator">I am an intuitive leader, I appreciate synergistic relationships and thrive in the virtual world. My goal is to bring meaning to the workplace and functional, enjoyable experiences to my clients and supervisors. My hobbies include fishing, poetry and the occasional marathon.</p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end section about us -->
+  
+  <!-- start section services -->
+  <div id="services">
+    <div class="container">
+
+        <div class="services-carousel owl-theme">
+
+          <div class="services-block">
+
+            <i class="ion-android-laptop"></i>
+            <span>WEB APPLICATIONS</span>
+            <p class="separator">Proficient in Java and the Spring Framework, I have engineered and developed multiple full-stack web application, most in a MVC design pattern, ranging in their functions to CRUD.</p>
+
+          </div>
+
+          <div class="services-block">
+
+            <i class="ion-ios-color-wand-outline"></i>
+            <span>WEB DESIGN</span>
+            <p class="separator">All my web applications use HTML, CSS and JavaScript. I am also proficient in RESTful APIs and technologies such as JQuery, Ajax, JSON and multiple HTTP Methods.</p>
+
+          </div>
+
+          <div class="services-block">
+
+            <i class="ion-social-android-outline"></i>
+            <span>MOBILE APPS</span>
+            <p class="separator">Android developement is my hobby, my passion. I trained myself in Kotlin, Android SDK and Android Studio. The sky is the limit!</p>
+
+          </div>
+
+          <div class="services-block">
+
+            <i class="ion-android-cloud"></i>
+            <span>DATABASES</span>
+            <p class="separator">Versed in MySQL and SQL Server, I've designed a variety of databases in multiple forms of normalization, personally trained by a <a href="https://www.linkedin.com/in/jim-stafki-8204835/" target="_blank">senior DBA.</a></p>
+
+          </div>
+
+          <div class="services-block">
+
+            <i class="ion-ios-game-controller-a-outline"></i>
+            <span>GAME DEVELOPEMENT</span>
+            <p class="separator">I enjoy working on games in my down-time, so far I've dabbled in C++, C#, Unreal Engine 5, Unity, and Blender.</p>
+
+          </div>
+
+        </div>
+
+    </div>
+
+  </div>
+  <!-- end section services -->
+
+  <!-- start section contact -->
+  <div id="contact" class="paddsection">
+    <div class="container">
+      <div class="contact-block1">
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="contact-contact">
+
+              <h2 class="mb-30">GET IN TOUCH</h2>
+
+              <ul class="contact-details">
+                <li><span>+1 (651-888-9704)</span></li>
+                <li><span>mark.stafki@gmail.com</span></li>
+              </ul>
+
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <form action="https://formsubmit.co/mark.stafki@gmail.com" method="post" role="form" class="contactForm">
+              <div class="row">
+
+                <div id="sendmessage">Your message has been sent. Thank you!</div>
+                <div id="errormessage"></div>
+
+                <div class="col-lg-6">
+                  <div class="form-group contact-block1">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <textarea class="form-control" name="message" id="message" rows="12" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <input type="submit" class="btn btn-defeault btn-send" value="Send message">
+                </div>
+
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- end section contact -->
+
+
+  <!-- start section footer -->
+  <div id="footer" class="text-center">
+    <div class="container">
+      <div class="socials-media text-center">
+
+        <ul class="list-unstyled">
+          <li><a href="https://www.linkedin.com/in/markstafki/" target="_blank"><i class="ion-social-linkedin"></i></a></li>
+          <li><a href="https://github.com/marstafk0" target="_blank"><i class="ion-social-github"></i></a></li> 
+          <li><a href="https://www.youtube.com/channel/UCkQ_4A4O-9ePjEQ-AKT7gFQ" target="_blank"><i class="ion-social-youtube"></i></a></li>
+          <li><a href="https://twitter.com/MarkStafki" target="_blank"><i class="ion-social-twitter"></i></a></li>
+        </ul>
+
+      </div>
+
+      <p>&copy; Copyright Mark Stafki. All rights reserved.</p>
+
+      <div class="credits">
+        Designed by Mark Stafki</a>
+      </div>
+
+    </div>
+  </div>
+  <!-- End section footer -->
+
+  <!-- JavaScript Libraries-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.3.2/jquery-migrate.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/js/bootstrap.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <!--<script src="contactform/contactform.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

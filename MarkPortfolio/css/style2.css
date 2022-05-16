@@ -1,0 +1,12 @@
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+html,
+body {
+  background-image: url("/images/newbc.jpg");
+  background-color: rgb(255, 255, 255);
+  font-family: 'Poppins', sans-serif;
+}
